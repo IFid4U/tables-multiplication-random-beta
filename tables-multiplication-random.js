@@ -27,7 +27,7 @@ while(playing){
   if(trouve !== tableNumber * multiplicateurNumber){
     tries++;
     
-    //Test du choix du joueur
+    //Test du choix du joueur SAUVEGARDE CODE POUR DECLINAISON CHOIX TABLE
     if(trouve === tableNumber * multiplicateurNumber){
       won = true;
       message = `YESSSS!! en ${tries} coups`;
