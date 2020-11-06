@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multiplication : tables</title>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <link rel="stylesheet" href="tables-multiplication.css">
+  <script src="tables-multiplication.ts"></script>
+
+  <div class="form-popup" id="myForm">
+    <form action="action_tables-multiplication.ts" class="form-container">
+      
+      <image src="multiplication.JPG" alt="Multiplication"></image>
+
+      <h1>Multiplication</h1>
+
+ <form>
+
+ <label for="table"><b><h2>Table:</h2></b></label>
+      <input type="number" value="0" min="0" max="10" placeholder="Table de" name="tableNumber" required>
+   <!--
+      <button type="submit" class="btn">Valider</button>
+      <button type="submit" class="btncancel">Annuler</button>
+      <button type="submit" class="btnrandom" img src="questionmark.png" title="Au hasard" alt="Au hasard"></button>
+-->
+<input type="image" id="valider" title="OK" alt="Valider"
+       src="valid.png"></input>
+
+<input type="image" id="erreur" title="Error" alt="Erreur"
+       src="error.png"></input>
+
+<input type="image" id="auHasard" title="Hasard" alt="Au hasard"
+       src="questionmark.png"></input>
+
+    </form>
+  </div>
+
+</body>
+</html>
